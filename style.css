@@ -1,0 +1,332 @@
+/*body*/
+
+body {
+    background-color: rgb(231, 233, 249);
+    margin: 0px;
+    
+}
+
+
+/*header*/
+
+.header {
+    padding: 2em;
+    background-image: linear-gradient(90deg, #020024 0%, #2A628F 35%, #63CCCA 100%);
+    text-align: center;
+}
+
+.header ul {
+    list-style-type:none;
+}
+    
+.header li {
+    display:inline;
+    margin: 14px;}
+
+.header a {
+       color:#001011;
+       text-decoration:none;
+       text-transform:uppercase;
+       font-family: "Fira Sans", sans-serif;
+    }
+
+.header a:hover {
+            color:white;
+}
+
+
+
+
+/*home page*/
+
+#wonderland {
+    display: grid;
+    align-items: top; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    margin: 0px;
+   }
+   
+   .alice {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
+   .coming{
+   max-width: 100%;
+   margin: 0%;
+       background-color: #bae3f2;
+       border: solid 2px black;
+       border-radius:2rem;
+       padding: 2em; 
+       font-family: "Fira Sans", sans-serif;
+   }
+
+/*button*/ 
+
+   button {
+               background-color: #3E92CC;
+               color: black;
+               padding: 1em;
+               border-radius:1em;
+               border: 6px;
+               margin: 1em;
+               font-family: "Fira Sans", sans-serif;;}
+   
+   button:hover {
+               background-color: lightblue;
+           }
+   
+   button a:hover {
+               color:white;
+           }
+   
+   
+   .flex-container {
+       display:inline-flex;
+    
+
+   }
+   
+   .flex-child-gsgd {
+       margin: 4em;
+       background-image: linear-gradient(180deg, #98cee1 65%, #ecf3f6 100%);
+       border: solid 2px black;
+       border-radius:2rem;
+       padding: 2em; 
+       font-family: "Fira Sans", sans-serif;
+       display: grid;
+       gap: 1rem;
+   }
+   
+   .flex-child-pa {
+       margin: 4em;
+       background-image: linear-gradient(180deg, #98cee1 65%, #ecf3f6 100%);
+       border: solid 2px black;
+       border-radius:2rem;
+       padding: 2em; 
+       font-family: "Fira Sans", sans-serif;
+       display: grid;
+       gap: 1rem;
+   }
+   
+   .flex-child-snowman {
+       margin: 4em;
+       background-image: linear-gradient(180deg, #98cee1 65%, #ecf3f6 100%);
+       border: solid 2px black;
+       border-radius:2rem;
+       padding: 2em; 
+       font-family: "Fira Sans", sans-serif;
+       display: grid;
+       gap: 1rem;
+   }
+   
+/*box*/
+
+#small-box {
+       background-color: #3E92CC;
+       width: 4em;
+       height: 2em;
+       position: fixed;
+       margin-top: 2em;
+       margin-left: 85em;
+       text-align: center;
+       font-family: "Fira Sans", sans-serif;
+   }
+
+/*footer*/
+   
+.foot {
+        
+        background-image: linear-gradient(90deg, #020024 0%, #2A628F 35%, #63CCCA 100%);
+         border:solid 3px ghostwhite;
+         padding: 2em;
+         position: relative;
+         margin: 0px;
+         font-family: "Fira Sans", sans-serif;
+         text-align: center;  
+        
+    }
+    
+   .foot a {
+        color: black;
+        text-decoration:none;
+        font-family: "Fira Sans", sans-serif;
+    }
+    
+    .foot a:hover {
+        color:white
+    }
+
+/*about*/
+
+h1 {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
+
+
+
+#about {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+    color: #0c6ebe;
+}
+.perform {
+    font-family: "Fira Sans", sans-serif;
+    text-align: left;
+    color: black;
+    background-image: linear-gradient(180deg, #4d9ddf 25%, #afe0f5 100%);
+    border:dotted 3px  #2A628F;
+   border-radius: 2em;
+   padding: 2em 2em;
+    margin-top: 2em;
+   margin-right: 6em;
+   margin-left: 6em;
+   margin-bottom: 2em;
+}
+
+.perform a {
+    color: black;
+    font-family:"Fira Sans", sans-serif;
+}
+
+.perform a:hover {
+     color: #0c6ebe;
+}
+
+#vids {
+    display:inline-flex;
+}
+
+.video1 {
+font-family: "Fira Sans", sans-serif;
+text-align: left;
+color: black;
+background-image: linear-gradient(180deg, #4d9ddf 25%, #afe0f5 100%);
+border:solid 3px  #2A628F;
+border-radius: 2em;
+display: grid;
+gap: 1rem;
+margin: 1em;
+}
+
+.video2 {
+    font-family: "Fira Sans", sans-serif;
+    text-align: left;
+    color: black;
+    background-image: linear-gradient(180deg, #4d9ddf 25%, #afe0f5 100%);
+    border:solid 3px  #2A628F;
+    border-radius: 2em;
+    display: grid;
+    gap: 1rem;
+    margin: 1em;
+    }
+
+.video3 {
+    font-family: "Fira Sans", sans-serif;
+    text-align: left;
+    color: black;
+    background-image: linear-gradient(180deg, #4d9ddf 25%, #afe0f5 100%);
+    border:solid 3px  #2A628F;
+    border-radius: 2em;
+    display: grid;
+    gap: 1rem;
+    margin: 1em;
+}
+
+.irene {
+    font-family: "Fira Sans", sans-serif;
+    text-align: left;
+    background-image: linear-gradient(180deg, #4d9ddf 20%, #afe0f5 100%);
+    margin-top: 2em;
+   padding: 4em 4em;
+   margin-right: 8em;
+   margin-left: 8em;
+   margin-bottom: 8em;
+   border: solid 3px  #2A628F;
+   border-radius: 2em;
+}
+
+.floatr {
+    float: right;
+    margin: 1em;
+}
+
+.floatl {
+    float: left;
+    margin: 1em;
+}
+
+/*gallery*/
+
+img {
+    margin: 4px;
+}
+
+#gsgd23, #beauty22 {
+    align-items: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    display: grid;
+    align-items: center; 
+    margin-bottom: 2em;
+    margin-top: 2em;
+    grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(180deg, #3da0f1 25%, #bbd2dc 100%);
+    border: solid 1px black;
+    border-radius: 2em;
+    padding: 4em;
+}
+
+/*contact*/
+
+#details {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+    border: dotted 2px black;
+    background-image: linear-gradient(180deg, #3da0f1 25%, #bbd2dc 100%);
+    border-radius: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 2em;
+    position: relative;
+}
+
+#contact {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center; 
+    border: 1px solid black;
+    background-image: linear-gradient(180deg, #3da0f1 25%, #bbd2dc 100%);
+    border-radius: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding: 3em;
+}
+
+#name, #email, #message {
+     margin-bottom:1em;
+     background-color:#c6f8f7;
+     padding:.5em;
+     width:50%;
+ }
+
+/*classes*/
+
+ table {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 25em;
+    margin-left: 20em;
+    font-family: "Fira Sans", sans-serif;
+    border: solid 1px #2A628F;
+    background-image: linear-gradient(180deg, #3da0f1 25%, #bbd2dc 100%);
+}
+
+#class {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
